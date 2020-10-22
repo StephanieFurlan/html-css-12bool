@@ -1,4 +1,5 @@
 .text {
+   text-align: center;
    position: absolute;
    left: 50%;
    top: 50%;
@@ -9,7 +10,15 @@
    padding: 10px;
 }
 
+.container {
+   background-color: pink;
+}
+
 .nested [class*="col-"] {
    border: 1px solid white;
    background-color: #F88379;
+}
+
+[class*="col-"] {
+   border: 1px solid black;
 }
