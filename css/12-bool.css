@@ -19,24 +19,22 @@
 
 .container {
    max-width: 1200px;
-   min-height: 200px;
+   height: 100%;
    margin: 0 auto;
 }
-
-
 .container::after {
    content: "";
    display: table;
    clear: both;
 }
 
+/* COLONNE */
 [class*="col-"] {
    float: left;
    min-height: 200px;
-   position: relative;
 }
 
-/* COLONNE */
+/* LARGHEZZA COLONNE */
 .col-1 {
    width: calc((100% / 12) * 1);
 }
