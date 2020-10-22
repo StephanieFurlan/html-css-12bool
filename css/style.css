@@ -1,0 +1,15 @@
+.text {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.nested {
+   padding: 10px;
+}
+
+.nested [class*="col-"] {
+   border: 1px solid white;
+   background-color: #F88379;
+}
