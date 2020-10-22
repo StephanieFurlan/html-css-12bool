@@ -8,14 +8,14 @@
 }
 
 .container {
-   background-color: pink;
+   background-color: #FFC0CB;
 }
 
 .nested {
    padding: 5px;
 }
 .nested [class*="col-"] {
-   border: 1px solid white;
+   border: 1px solid #FFFFFF;
    background-color: #F88379;
 }
 
