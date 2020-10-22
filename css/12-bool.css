@@ -32,7 +32,6 @@
 /* Columns */
 [class*="col-"] {
    float: left;
-   min-height: 200px;
 }
 
 /* Columns' width */
